@@ -1,9 +1,14 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const Mainlayout = () => {
     return (
         <div>
-            hello
+
+              
+            <Outlet/>
+
+
         </div>
     );
 };
