@@ -5,7 +5,7 @@ const Register = () => {
         <div>
            <div>
   {/* <!-- component --> */}
-  <body className="font-mono bg-[#FFFFFF]">
+  <body className=" bg-[#FFFFFF]">
     {/* <!-- Container --> */}
     <div className="container mx-auto">
       <div className="flex justify-center px-6 my-12">

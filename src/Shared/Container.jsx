@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Container = ({chilldern}) => {
+const Container = ({children}) => {
     return (
-        <div className='max-w-screen-2xl lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm mx-auto px-5'>
-           {chilldern} 
-        </div>
+<div className='xl:max-w-[1920px ] lg:wax-w-[1000px] md:max-w-[ 960px] mx-auto px-5'>
+       
+       {children}
+
+       </div>
     );
 };
+
 
 export default Container;
