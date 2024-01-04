@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
@@ -179,7 +180,7 @@ const Register = () => {
               </div>
               <div className="mb-6 text-center">
                 <button
-                  className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+                  className="w-full px-4 py-2 font-bold text-white bg-black rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
                   type="button"
                 >
                   Register Account
@@ -190,8 +191,8 @@ const Register = () => {
                 
               </div>
               <div className="text-center">
-                <a className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800" href="#">
-                  Already have an account? Login!
+                <a className="inline-block text-sm text-black align-baseline" href="#">
+                  Already have an account? <Link to={'/login'}><span className='text-black underline'>Login</span></Link>
                 </a>
               </div>
             </form>
