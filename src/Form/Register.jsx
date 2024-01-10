@@ -64,7 +64,7 @@ const Register = () => {
                     Email Adress
                   </label>
                   <input
-                    className="w-full bg-[#F7F7F7] px-20 py-4 mb-3 text-sm leading-tight text-gray-700 border border-red-500 rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                    className="w-full bg-[#F7F7F7] px-20 py-4 mb-3 text-sm leading-tight text-gray-700 border  rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                     placeholder="Email Adress"
                     type="email"
                
@@ -79,7 +79,7 @@ const Register = () => {
                     Phone Number
                   </label>
                   <input
-                    className="w-full bg-[#F7F7F7] px-20 py-4 mb-3 text-sm leading-tight text-gray-700 border border-red-500 rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                    className="w-full bg-[#F7F7F7] px-20 py-4 mb-3 text-sm leading-tight text-gray-700 border  rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                     placeholder="Your Number"
                     type="text"
                
